@@ -89,7 +89,7 @@ export default class DnD {
     this.board.addEventListener('mousedown', (event) => {
       event.preventDefault();
       const card = event.target.closest('.list-card');
-      console.log(card);
+      // console.log(card);
       if (!card || event.target.classList.contains('list-card-remover') || event.target.className.startsWith('card')) {
         return;
       }

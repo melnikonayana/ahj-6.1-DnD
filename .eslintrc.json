@@ -21,10 +21,10 @@
       "error",
       "ignorePackages"
     ],
-    "no-alert": [
+    "max-len": [
       "off"
     ],
-    "no-plusplus": [
+    "consistent-return": [
       "off"
     ]
   }
